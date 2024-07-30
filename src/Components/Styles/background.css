@@ -1,0 +1,26 @@
+.slider-div {
+  padding-top: 95px;
+}
+
+.background-image-div {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  width: 100%;
+  height: 450px;
+}
+
+.slick-dots {
+  top: 390px;
+  position: absolute;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 1600px) {
+  .div-one,
+  .div-two,
+  .div-three {
+    height: 500px;
+  }
+}
